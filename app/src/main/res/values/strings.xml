@@ -3,4 +3,27 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lake_name1">Prashar Lake</string>
+    <string name="lake_name2">Serolsar Lake</string>
+    <string name="lake_name3">Chandra Taal Lake</string>
+    <string name="lake_name4">Bhrigu_Lake</string>
+    <string name="lake_description1">The lake is located at a height of 2730 m above sea level. With
+        deep blue waters, the lake is held sacred to the sage Prashar and he is regarded to have
+        meditated there. Surrounded by snow-capped peaks and looking down on the fast flowing river
+        Beas, the lake can be approached via Drang. There is a round, floating island inside the
+        lake, which is a common natural phenomenon found all around the world.</string>
+    <string name="lake_description2">Serolsar Lake is located at an altitude of 3199 m. It is
+        surrounded by thick vegetation of alpine forests. There is a myth that even if a small leaf
+        falls into the Lake the birds around takes them out of the lake and keeps the water crystal
+        clear. The water of the lake is believed to have medicinal properties.</string>
+    <string name="lake_description3">Chandra Taal lake is on the Samudra Tapu plateau,which overlooks
+        Chandra river (a source river of the Chenab). The name of the lake originates from its crescent
+        shape. It is at an altitude of about 4,300 metres (14,100 ft)in the Himalayas.Mountains of scree
+        overlook the lake on one side, and a cirque encloses it on the other.</string>
+    <string name="lake_description4">Bhrigu Lake or Brighu Lake is a lake located at an elevation of
+        around 4,300 metres (14,100 ft) in Kullu district, Himachal Pradesh, India. It is located to
+        the east of Rohtang Pass and is around 6 kilometres (3.7 mi) from Gulaba village. It can be
+        reached by trekking either from the Vashishth temple, which is famous for its hot water
+        springs, close to the town of Manali. Actually there is no settlement in Gulaba and is an
+        area of the Pir Panjal mountain range. It is named after Maharishi Bhrigu.</string>
 </resources>

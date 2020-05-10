@@ -9,34 +9,15 @@
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         app:tabTextColor="@color/colorPrimaryDark"
         app:tabMode="scrollable"
         app:tabBackground="@color/colorAccent"
         app:tabGravity="center"
-
         android:id="@+id/tablayout">
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="home"
-            android:id="@+id/tiHome"
-            android:icon="@drawable/ic_launcher_background"
-            />
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="home"
-            android:id="@+id/t2Home"
-            android:icon="@drawable/ic_launcher_background"
-            />
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="home"
-            android:id="@+id/t3Home"
-            android:icon="@drawable/ic_launcher_background"
-            />
+            android:id="@+id/tiHome"/>
 
     </com.google.android.material.tabs.TabLayout>
 

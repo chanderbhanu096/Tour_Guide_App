@@ -17,11 +17,7 @@ import com.example.tourguideapplication.R;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Lakes#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class Lakes extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -48,7 +44,7 @@ public class Lakes extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.list, container, false);
+        View rootView = inflater.inflate(R.layout.listview, container, false);
 
 
         return rootView;
@@ -59,7 +55,10 @@ public class Lakes extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         ArrayList<LakesCustom> lakes = new ArrayList<LakesCustom>();
-        lakes.add(new LakesCustom("Mandi","Prasher Lake",R.drawable.ic_launcher_background));
+        lakes.add(new LakesCustom(getResources().getString(R.string.lake_name1),getResources().getString(R.string.lake_description1),R.drawable.prashar_lake));
+        lakes.add(new LakesCustom(getResources().getString(R.string.lake_name2),getResources().getString(R.string.lake_description2),R.drawable.serolsar_lake));
+        lakes.add(new LakesCustom(getResources().getString(R.string.lake_name3),getResources().getString(R.string.lake_description3),R.drawable.chandratal_lake));
+        lakes.add(new LakesCustom(getResources().getString(R.string.lake_name4),getResources().getString(R.string.lake_description4),R.drawable.bhrigu_lake));
         LakesArrayingAdapter adapter;
         adapter = new LakesArrayingAdapter(getContext(),lakes);
         listview = view.findViewById(R.id.listitem1);
