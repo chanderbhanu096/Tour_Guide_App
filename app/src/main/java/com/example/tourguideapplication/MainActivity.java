@@ -15,16 +15,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        String[] tabTitles = new String[]{getResources().getString(R.string.tab1_name),getResources().getString(R.string.tab2_name),getResources().getString(R.string.tab3_name),getResources().getString(R.string.tab4_name)};
-        tab = findViewById(R.id.tablayout);
+        super.onCreate( savedInstanceState );
+        setContentView( R.layout.activity_main );
+        String[] tabTitles = new String[]{getResources().getString( R.string.tab1_name ), getResources().getString( R.string.tab2_name ), getResources().getString( R.string.tab3_name ), getResources().getString( R.string.tab4_name )};
+        tab = findViewById( R.id.tablayout );
 
 
-        ViewPager viewPager = findViewById(R.id.viewpager);
-        mypagerAdapter fragmentPagerAdapter = new mypagerAdapter( tabTitles,getSupportFragmentManager(),tab.getTabCount()) ;
-        viewPager.setAdapter(fragmentPagerAdapter);
+        ViewPager viewPager = findViewById( R.id.viewpager );
+        mypagerAdapter fragmentPagerAdapter = new mypagerAdapter( tabTitles, getSupportFragmentManager(), tab.getTabCount() );
+        viewPager.setAdapter( fragmentPagerAdapter );
 
-       tab.setupWithViewPager(viewPager);
+        tab.setupWithViewPager( viewPager );
     }
 }

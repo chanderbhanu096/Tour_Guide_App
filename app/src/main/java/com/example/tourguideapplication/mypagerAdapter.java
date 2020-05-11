@@ -18,13 +18,13 @@ public class mypagerAdapter extends FragmentPagerAdapter {
     String[] tabTitles;
 
 
-
     public mypagerAdapter(String[] tabTitles, FragmentManager supportFragmentManager, int tabCount) {
 
-        super(supportFragmentManager);
+        super( supportFragmentManager );
         this.tabTitles = tabTitles;
         this.tabCount = tabCount;
     }
+
     @Override
     public CharSequence getPageTitle(int position) {
         return tabTitles[position];
@@ -33,7 +33,7 @@ public class mypagerAdapter extends FragmentPagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
-        switch (position){
+        switch (position) {
             case 0:
                 return new Lakes();
             case 1:

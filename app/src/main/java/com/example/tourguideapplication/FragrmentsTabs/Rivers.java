@@ -19,36 +19,31 @@ import java.util.ArrayList;
 
 public class Rivers extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
     ListView listview;
-    private String mParam2;
 
     public Rivers() {
         // Required empty public constructor
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.listview, container, false);
+        View rootView = inflater.inflate( R.layout.listview, container, false );
         return rootView;
     }
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+        super.onViewCreated( view, savedInstanceState );
 
         ArrayList<RiverCustom> rivers = new ArrayList<RiverCustom>();
-        rivers.add(new RiverCustom(getResources().getString(R.string.river_name1),getResources().getString(R.string.river_description1),R.drawable.beas_river));
-        rivers.add(new RiverCustom(getResources().getString(R.string.river_name2),getResources().getString(R.string.river_description2),R.drawable.chenab));
-        rivers.add(new RiverCustom(getResources().getString(R.string.river_name3),getResources().getString(R.string.river_description3),R.drawable.parvati_river));
-        rivers.add(new RiverCustom(getResources().getString(R.string.river_name4),getResources().getString(R.string.river_description4),R.drawable.sutluj));
+        rivers.add( new RiverCustom( getResources().getString( R.string.river_name1 ), getResources().getString( R.string.river_description1 ), R.drawable.beas_river ) );
+        rivers.add( new RiverCustom( getResources().getString( R.string.river_name2 ), getResources().getString( R.string.river_description2 ), R.drawable.chenab ) );
+        rivers.add( new RiverCustom( getResources().getString( R.string.river_name3 ), getResources().getString( R.string.river_description3 ), R.drawable.parvati_river ) );
+        rivers.add( new RiverCustom( getResources().getString( R.string.river_name4 ), getResources().getString( R.string.river_description4 ), R.drawable.sutluj ) );
         RiverArrayingAdapter adapter;
-        adapter = new RiverArrayingAdapter(getContext(),rivers);
-        listview = view.findViewById(R.id.listitem1);
-        listview.setAdapter(adapter);
+        adapter = new RiverArrayingAdapter( getContext(), rivers );
+        listview = view.findViewById( R.id.listitem1 );
+        listview.setAdapter( adapter );
     }
 }
