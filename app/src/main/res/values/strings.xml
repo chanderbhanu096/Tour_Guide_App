@@ -3,6 +3,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab1_name">Lakes</string>
+    <string name="tab2_name">Rivers</string>
+    <string name="tab3_name">Temples</string>
+    <string name="tab4_name">Hiking Spots</string>
     <string name="lake_name1">Prashar Lake</string>
     <string name="lake_name2">Serolsar Lake</string>
     <string name="lake_name3">Chandra Taal Lake</string>
@@ -26,4 +30,73 @@
         reached by trekking either from the Vashishth temple, which is famous for its hot water
         springs, close to the town of Manali. Actually there is no settlement in Gulaba and is an
         area of the Pir Panjal mountain range. It is named after Maharishi Bhrigu.</string>
-</resources>
+    <string name="river_name1">Beas River</string>
+    <string name="river_name2">Chenab River</string>
+    <string name="river_name3">Parvati River</string>
+    <string name="river_name4">Sutluj River</string>
+    <string name="river_description1">Beas river originates from the majestic Himalayas. The entire
+        stretch of the river is nearly 470km. The interesting fact about Beas River is that it meets
+        the Sutlej River in Punjab. Beas River has one of the biggest drainage basins in the country.
+        It is about 20,300 square kilometers long. Beas River in Himachal is not just about looks.
+    </string>
+    <string name="river_description2">Even though the name Chenab refers to the river, the traditional
+        name of the river is Chandrabaga River. There are very few things that are common between India
+        and Pakistan. One among them is this Chenab River. It is one of the most important rivers for
+        both India and Pakistan. </string>
+    <string name="river_description3">Parvati River in Himachal Pradesh meets at Bhuntar in Beas River.
+        The river originates from the Mantalai Glacier. The Pin Prabati Pass is located above it. The
+        river flows through the town of Manikaran. The route where the Parvati River Valley comes is
+        Lahul, Spiti and Debsa Pass.</string>
+    <string name="river_description4">Of all the rivers in Himachal Pradesh, the Sutlej river is the
+        longest one. The river is so long that it travells through Punjab and also reaches Pakistan.
+        The name Sadatree also knows the river. Sutlej plays a very role when it comes to irrigation.
+        The water from the river is diverted across various channels it is being used in many parts
+        of North India.</string>
+    <string name="temple_name1">Hadimba Temple</string>
+    <string name="temple_name2">Mathi Temple at Chitkul</string>
+    <string name="temple_name3">Bhimakali temple, Sarahan</string>
+    <string name="temple_description1">Hadimba is the most popular temple in Manali; it is in fact
+        the most famous tourist attraction here as well. Dedicated to Hadimba Devi (the wife of Bhima),
+        Hadimba Temple is built around a cave amidst a thick forest. In this temple, devotees come to
+        worship Hadimba Devi, who once meditated, prayed and did penance here. The temple catches the
+        eye of the tourists due to its excellent architecture. The intricate wooden carving and the
+        24m tall tower above the sanctuary is the main attraction here.</string>
+    <string name="temple_description2">There are three Mathi temples, out of which the most prominent
+        one is at Chitkul. Chitkul is the last village of India and is situated on the India-China
+        border at an altitude of 3500m. The Mathi Temple in Chitkul is believed to be 500 years old
+        and is built of wood. Legend has it that the Devi completed an arduous journey from Brindavan
+        to Chitkul. After deploying her nephews and husband as guards of various regions in Himachal
+        Pradesh, the Devi finally decided to settle in Chitkul. It is also believed that after her
+        arrival, the village started to prosper and this made her an important deity here.</string>
+    <string name="temple_description3">Bhimakali temple holds importance as one of the 51 Shaktipeethas.
+        According to legends, it is the place where an ear of Sati fell. The temple is situated in
+        Sarahan, which is at a distance of about 180kms from Shimla. Bhimakali temple is a important
+        landmark of Sarahan town. This wooden temple has a scenic background with lofty snow-clad
+        mountains. The architecture of the temple and the intricate wood carvings are also worth
+        praising.</string>
+
+    <string name="trek_name1">Hampta Pass Trek</string>
+    <string name="trek_name2">Kheerganga Trek</string>
+    <string name="trek_name3">Parvati Trek</string>
+    <string name="trek_name4">Triund Trek</string>
+    <string name="trek_description1">Hampta Pass gets its name from the Hamta Village located in the
+        Pir Panjal region. At 14000 feet, this place is mostly ventured by shepherds and a handful of
+        trekkers. Surrounded by glaciers, rivulets, jagged mountains and meadows, Hampta Pass trek is
+        one of the toughest treks in Himachal Pradesh. You cannot venture on this trek without the
+        Himachal Pradesh trekking map.</string>
+    <string name="trek_description2">Kheer Ganga in Kasol is a beautiful, frothy-white mountain river.
+        It falls from high up in the mountains, and the only way to reach it is via a short but
+        arduous trek. The Kheer Ganga Trek is famed all over the country, with trekking enthusiasts
+        raving about the beauty of it. The trek roughly is of no more than 12 km, and can be covered
+        in no more than 5 or 6 hours if you take only a couple of short breaks.</string>
+    <string name="trek_description3">For those who are looking for tough treks in Himachal, Pin
+        Parvati is a great option. The trek takes you at an impressive height of 16,000 ft and offers
+        you mesmerizing landscape. It is not an ideal trek for beginners or novice as the trail is
+        difficult and challenging. Even experience trekkers require good stamina to venture in this
+        trek. You will go through high mountain passes, undulating meadows, snowy landscapes, and
+        boulders. Since it is a 9-day trek,you should also be mentally prepared for it.</string>
+    <string name="trek_description4">If you are looking for solo treks in Himachal, then you should
+        definitely head to the trails of Triund and have a rendezvous with the mountains. The ranges
+        of Dhauladhar look gigantic and wonderful. Enjoy camping beneath the stars in the night and
+        have a bonfire. You will feel lucky to be in the presence of such scenery. There isn’t any
+        place like Triund on earth. If you don’t believe us, check it out yourself.</string></resources>

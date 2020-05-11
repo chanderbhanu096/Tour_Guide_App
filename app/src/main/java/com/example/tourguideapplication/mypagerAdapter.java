@@ -1,5 +1,7 @@
 package com.example.tourguideapplication;
 
+import android.content.Context;
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -11,13 +13,16 @@ import com.example.tourguideapplication.FragrmentsTabs.Rivers;
 import com.example.tourguideapplication.FragrmentsTabs.Temples;
 
 public class mypagerAdapter extends FragmentPagerAdapter {
-    private String[] tabTitles = new String[]{"4 Lakes", "3 Item", "2 Item Tab","Single item Tab"};
-
+    Context context;
     int tabCount;
+    String[] tabTitles;
 
-    public mypagerAdapter(MainActivity mainActivity, FragmentManager supportFragmentManager, int tabCount) {
+
+
+    public mypagerAdapter(String[] tabTitles, FragmentManager supportFragmentManager, int tabCount) {
 
         super(supportFragmentManager);
+        this.tabTitles = tabTitles;
         this.tabCount = tabCount;
     }
     @Override
