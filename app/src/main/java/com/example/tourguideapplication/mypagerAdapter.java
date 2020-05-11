@@ -1,19 +1,15 @@
 package com.example.tourguideapplication;
 
-import android.content.Context;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-
 import com.example.tourguideapplication.FragrmentsTabs.HikingLocation;
 import com.example.tourguideapplication.FragrmentsTabs.Lakes;
 import com.example.tourguideapplication.FragrmentsTabs.Rivers;
 import com.example.tourguideapplication.FragrmentsTabs.Temples;
 
 public class mypagerAdapter extends FragmentPagerAdapter {
-    Context context;
     int tabCount;
     String[] tabTitles;
 

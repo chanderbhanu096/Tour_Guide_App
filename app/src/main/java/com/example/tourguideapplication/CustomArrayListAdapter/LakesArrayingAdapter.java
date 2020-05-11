@@ -7,15 +7,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.example.tourguideapplication.CustomArrayList.LakesCustom;
 import com.example.tourguideapplication.R;
-
 import java.util.ArrayList;
 
 public class LakesArrayingAdapter extends ArrayAdapter<LakesCustom> {
-    Context context;
-    ArrayList<LakesCustom> lakes;
 
     public LakesArrayingAdapter(Context context, ArrayList<LakesCustom> lakes) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
